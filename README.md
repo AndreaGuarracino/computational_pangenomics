@@ -10,6 +10,7 @@ Welcome to the Computational Pangenomics repository! This two-day workshop, held
 Department of Genetics, Genomics and Informatics,
 University of Tennessee Health Science Center
 Memphis, TN, USA
+
 Curriculum vitae at https://andreaguarracino.github.io/
 
 ## Workshop Details
