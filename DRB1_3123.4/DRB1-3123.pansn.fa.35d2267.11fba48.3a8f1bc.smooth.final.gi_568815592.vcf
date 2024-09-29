@@ -1,0 +1,14 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=CONFLICT,Number=.,Type=String,Description="Sample names for which there are multiple paths in the graph with conflicting alleles">
+##INFO=<ID=AC,Number=A,Type=Integer,Description="Total number of alternate alleles in called genotypes">
+##INFO=<ID=AF,Number=A,Type=Float,Description="Estimated allele frequency in the range (0,1]">
+##INFO=<ID=NS,Number=1,Type=Integer,Description="Number of samples with data">
+##INFO=<ID=AN,Number=1,Type=Integer,Description="Total number of alleles in called genotypes">
+##INFO=<ID=LV,Number=1,Type=Integer,Description="Level in the snarl tree (0=top level)">
+##INFO=<ID=PS,Number=1,Type=String,Description="ID of variant corresponding to parent snarl">
+##INFO=<ID=AT,Number=R,Type=String,Description="Allele Traversal as path in graph">
+##contig=<ID=gi|568815592#1#32578768-32589835,length=11068>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	gi|157702218	gi|28212469	gi|28212470	gi|29124352	gi|345525392	gi|528476637	gi|568815529	gi|568815551	gi|568815561	gi|568815567	gi|568815569
+gi|568815592#1#32578768-32589835	1335	>1>3	C	CA	60	.	AC=1;AF=0.5;AN=2;AT=>1>3,>1>2>3;NS=2;LV=0	GT	.	0	.	.	.	1	.	.	.	.	.
+gi|568815592#1#32578768-32589835	5250	>3>5	TCACA	T	60	.	AC=1;AF=0.5;AN=2;AT=>3>4>5,>3>5;NS=2;LV=0	GT	.	0	.	.	.	1	.	.	.	.	.
